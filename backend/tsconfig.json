@@ -4,7 +4,7 @@
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
     "outDir": "dist",
-    "rootDir": ".",
+    "rootDir": "src",
     "strict": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
@@ -14,6 +14,6 @@
     "noEmitOnError": true,
     "types": ["node", "vitest/globals"]
   },
-  "include": ["src", "test"],
+  "include": ["src"],
   "exclude": ["dist", "node_modules"]
 }
